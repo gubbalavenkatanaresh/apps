@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.main-heading {
+  font-family: Bree Serif;
+}
+.search {
+  border-width: 1px;
+  border-style: solid;
+  width: 350px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  align-self: center;
+}
+.search-ele {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 90%;
+  color: #7b8794;
+  font-weight: 500;
+}
+.search-icon {
+  height: 30px;
+  width: 30px;
+}
+.buttons-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+.apps-list {
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+}
